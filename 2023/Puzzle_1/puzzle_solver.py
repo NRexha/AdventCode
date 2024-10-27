@@ -21,7 +21,7 @@ def get_digits(word):
 def main():
     total_sum = 0
 
-    with open("PuzzleInput.txt", "r") as file:
+    with open("puzzle_input.txt", "r") as file:
         for line in file:
             word = line.strip()
             combined_number = get_digits(word)
